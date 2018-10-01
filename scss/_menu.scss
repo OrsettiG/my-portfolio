@@ -103,7 +103,7 @@
             transform: translate3d(0, 0, 0);
         }
         &.current > a{
-            color: $primary-color;
+            color: darken($secondary-color, 4);
         }
     }
 
@@ -113,13 +113,13 @@
         font-size: 30px;
         text-transform: uppercase;
         padding: 1rem 0;
-        font-weight: 400;
+        font-weight: 425;
         color: #fff;
         text-decoration: none;
         @include easeOut;
 
         &:hover{
-            color: $primary-color;
+            transform: scale(1.2);
         }
     }
 
