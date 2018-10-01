@@ -1,11 +1,11 @@
 //XL screens
 @include mediaXl{
-    
+   
 }
 
 //Regular Desktops
 @include mediaLg{
-
+   
 }
 
 //Tablets and small laptops
@@ -47,6 +47,16 @@
             width: 150px;
             height: 150px;
         }
+    }
+
+    .about-content{
+        grid-template-areas:
+        'bioimg'
+        'bio'
+        'job1' 
+        'job2'
+        'job3';
+        grid-template-columns: 1fr;
     }
 
 }
