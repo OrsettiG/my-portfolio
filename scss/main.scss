@@ -3,7 +3,7 @@
 
 *{
     box-sizing: border-box;
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 body {
@@ -50,7 +50,7 @@ header{
 
 main{
     padding: 4rem;
-    min-height: calc(100vh-60px);
+    min-height: calc(100vh - 60px);
 
     .icons{
         margin-top: 1rem;
@@ -115,6 +115,20 @@ main{
     
     h3{
         color: $secondary-color;
+    }
+}
+
+.boxes{
+    display: grid;
+    grid-template-areas: 
+    'phone email';
+    grid-template-columns: repeat(2, 1fr);
+
+    div{
+        font-size: 2rem;
+        border: 3px solid set-text-color($primary-color);
+        padding: 0.5rem 1rem;
+        margin: auto;
     }
 }
 
