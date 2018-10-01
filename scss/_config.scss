@@ -3,6 +3,8 @@ $secondary-color: #2e6cf2;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.8;
+$show-cursor: true;
+$hide-cursor: true;
 
 @mixin easeOut {
     transition: all 0.5s ease-out;
@@ -37,6 +39,7 @@ $background-opacity: 0.8;
         @return #fff;
     }
 }
+
 
 //Media query mixins
 @mixin mediaSm {
