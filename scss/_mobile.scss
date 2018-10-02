@@ -88,7 +88,13 @@
     }
 
     h1{
-        font-size: 5rem;
+        &.lg-heading{
+            font-size: 5rem;
+        }
+    }
+
+    main{
+        text-align: start;
     }
 
 }
