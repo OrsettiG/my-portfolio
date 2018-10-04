@@ -266,7 +266,7 @@ main {
     text-align: center;
     padding: 2rem; } }
 
-@media screen and (orientation: landscape) and (max-height: 500px) and (max-width: 600px) {
+@media screen and (orientation: landscape) and (max-height: 500px) and (max-width: 830px) {
   main {
     display: flex;
     flex-direction: column;
