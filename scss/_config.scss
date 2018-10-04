@@ -42,8 +42,14 @@ $hide-cursor: true;
 
 
 //Media query mixins
+@mixin landscapePhone {
+    @media screen and (orientation:landscape) and (max-height:500px){
+        @content;
+    }
+}
+
 @mixin mediaSm {
-    @media screen and (max-width: 500px){
+    @media screen and (min-width: 300px) and (min-height: 500px){
        @content;
     }
 }

@@ -254,13 +254,43 @@ main {
       font-size: 1rem;
       margin: 0.5rem; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 300px) and (min-height: 500px) {
   main#home h1 {
-    margin-top: 10vh;
+    margin-top: 5vh;
     font-size: 5rem; }
   h2.sm-heading {
     font-size: 1.25rem; }
   h1.lg-heading {
-    font-size: 5rem; }
+    font-size: 4rem; }
   main {
-    text-align: center; } }
+    text-align: center;
+    padding: 2rem; } }
+
+@media screen and (orientation: landscape) and (max-height: 500px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 0 1rem; }
+    main .lg-heading {
+      line-height: 1;
+      margin: 1rem;
+      font-size: 5rem; }
+  ul.menu-nav, div.menu-branding {
+    width: 100%; }
+    ul.menu-nav.show, div.menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    height: 50vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 16px; }
+  .menu-branding {
+    height: 50vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      background: url("../img/portrait_small.jpg");
+      background-size: cover;
+      width: 150px;
+      height: 150px; } }
