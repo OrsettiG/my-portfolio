@@ -3,7 +3,6 @@
 
 *{
     box-sizing: border-box;
-    //overflow: hidden;
 }
 
 body {
@@ -11,9 +10,11 @@ body {
     background: $primary-color;
     color: set-text-color($primary-color); 
     height: 100%;
+    //width: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
+    overflow: visible;
 }
 
 //Headings
@@ -74,11 +75,9 @@ main{
 
     &#home{
         overflow: hidden;
-        h1{
-            margin-top: 20vh;
-        }
-
-        
+            h1{
+                margin-top: 20vh;
+            }
         }
 }
 
@@ -125,6 +124,10 @@ main{
     h3{
         color: $secondary-color;
     }
+}
+
+.work-text{
+    font-size: 1.5rem;
 }
 
 .boxes{

@@ -1,7 +1,7 @@
 $primary-color: #21301f;
 $secondary-color: #2e6cf2;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
+$home-image: url(../img/background-min.jpg);
 $background-opacity: 0.8;
 $show-cursor: true;
 $hide-cursor: true;
@@ -43,13 +43,13 @@ $hide-cursor: true;
 
 //Media query mixins
 @mixin mediaSm {
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 500px){
        @content;
     }
 }
 
 @mixin mediaMd {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px){
        @content;
     }
 }

@@ -27,7 +27,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.93;
+  opacity: 0.98;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -103,9 +103,10 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5; }
+  line-height: 1.5;
+  overflow: visible; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../img/background-min.jpg);
     background-attachment: fixed;
     background-size: cover; }
   body:after {
@@ -191,6 +192,9 @@ main {
   padding: 0.5rem; }
   .job h3 {
     color: #2e6cf2; }
+
+.work-text {
+  font-size: 1.5rem; }
 
 .boxes {
   display: grid;
