@@ -51,7 +51,7 @@
         .portrait{
             background: url('../img/portrait_small.jpg');
             background-size: cover;
-            width: 150px;
+            width: 100px;
             height: 150px;
         }
     }
@@ -133,6 +133,13 @@
 
     ul.menu-nav, div.menu-branding{
         width: 100%;
+
+        .portrait{
+            background: url('../img/portrait_small.jpg');
+            background-size: cover;
+            width: 100px;
+            height: 150px;
+        }
 
         &.show{
             transform: translate3d(0, 0, 0);
